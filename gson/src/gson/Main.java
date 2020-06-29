@@ -4,7 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
 
@@ -44,9 +47,22 @@ public class Main {
 
         String bean = "[{\"type\":1,\"typeName\":\"9.9包邮\"},{\"type\":2,\"typeName\":\"超值大额券\"},{\"type\":3,\"typeName\":\"夏日上新\"}]";
 
-        Type type =new TypeToken<List<Bean>>() {}.getType();
+        Type type = new TypeToken<List<Bean>>() {
+        }.getType();
         List<Bean> beanList = new Gson().fromJson(bean, type);
 
+
+//        List list = new ArrayList();
+//        list.size()
+
+//        Map map = new HashMap();
+//        map.size();
+
+
+//        String[] a = {"aff", "b"};
+//        or
+//        String a[]  = {"aff", "b"};
+//        a.length
     }
 
 }

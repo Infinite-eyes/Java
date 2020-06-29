@@ -1,3 +1,5 @@
+package java.concurrentmodificationexception;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -19,7 +21,7 @@ public class Test {
             Integer integer = iterator.next();
             if (integer == 2)
                 iterator.remove();
-//            list.remove(integer);
+            list.remove(integer);
         }
 
     }

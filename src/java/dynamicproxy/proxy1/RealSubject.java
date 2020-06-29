@@ -1,4 +1,4 @@
-package proxy1;
+package java.dynamicproxy.proxy1;
 
 public class RealSubject implements Subject {
     @Override

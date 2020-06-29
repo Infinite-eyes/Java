@@ -1,6 +1,4 @@
-package proxy2;
-
-import java.lang.reflect.Proxy;
+package java.dynamicproxy.proxy2;
 
 public class JavaDynamicProxy {
 

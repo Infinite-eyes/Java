@@ -1,4 +1,4 @@
-package proxy2;
+package java.dynamicproxy.proxy2;
 
 public class JavaDeveloper implements Developer {
 
