@@ -1,4 +1,4 @@
-package java.dynamicproxy.proxy2;
+package demo.dynamicproxy.proxy2;
 
 public interface Developer {
 

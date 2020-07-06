@@ -1,4 +1,4 @@
-package java.threadlocal;//https://www.jianshu.com/p/3c5d7f09dfbd
+package demo.threadlocal;//https://www.jianshu.com/p/3c5d7f09dfbd
 
 
 public class test {
